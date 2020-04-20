@@ -6,28 +6,26 @@
 //  Copyright © 2019 xialiang. All rights reserved.
 //
 
-import UIKit
 import HandyJSON
+import UIKit
 
 public class HistoryUpdateModel: HandyJSON {
-        public var total:Int!
-        public var code:Int!
-        public var msg:String!
-        public var result:Array<HResultMode>!
-        
-        public  required  init() {
-            
-        }
-    }
+    public var total: Int!
+    public var code: Int!
+    public var msg: String!
+    public var result: Array<HResultMode>!
 
-    public class HResultMode: HandyJSON {
-        public  var index:Int!
-        public var taskCarId:String!
-        public  var status:Int!
-        public var description:String!
-        public var upgradeDate:String!
-        
-        public required init() {
-            
-        }
+    public required init() {
     }
+}
+
+public class HResultMode: HandyJSON {
+    public var index: Int!
+    public var taskCarId: String!
+    public var status: Int!
+    public var description: String!
+    public var upgradeDate: String!
+
+    public required init() {
+    }
+}

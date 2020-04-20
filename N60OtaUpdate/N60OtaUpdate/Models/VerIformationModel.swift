@@ -6,25 +6,20 @@
 //  Copyright © 2019 xialiang. All rights reserved.
 //
 
-import UIKit
 import HandyJSON
+import UIKit
 
 public class VerIformationModel: HandyJSON {
-        public var result:VResultMode!
-        public var code:Int!
-        public var msg:String!
-        public  required init() {
-            
-        }
-        
+    public var result: VResultMode!
+    public var code: Int!
+    public var msg: String!
+    public required init() {
     }
+}
 
-    public class VResultMode: HandyJSON {
-        public var cVer:String!
+public class VResultMode: HandyJSON {
+    public var cVer: String!
 
-
-        public  required init() {
-            
-        }
-        
+    public required init() {
     }
+}

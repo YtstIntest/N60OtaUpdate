@@ -6,25 +6,21 @@
 //  Copyright © 2019 xialiang. All rights reserved.
 //
 
-import UIKit
 import HandyJSON
+import UIKit
 
 public class UpdateResultModel: HandyJSON {
-        public var result:UResultMode!
-        public var code:Int!
-        public var msg:String!
-        public  required init() {
-            
-        }
-        
+    public var result: UResultMode!
+    public var code: Int!
+    public var msg: String!
+    public required init() {
     }
+}
 
-    public class UResultMode: HandyJSON {
-        public var result:Int!
-        public var resultCode:Int!
+public class UResultMode: HandyJSON {
+    public var result: Int!
+    public var resultCode: Int!
 
-        public  required init() {
-            
-        }
-        
+    public required init() {
     }
+}

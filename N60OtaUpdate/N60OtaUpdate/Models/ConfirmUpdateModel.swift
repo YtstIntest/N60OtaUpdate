@@ -6,17 +6,14 @@
 //  Copyright © 2019 xialiang. All rights reserved.
 //
 
-import UIKit
 import HandyJSON
+import UIKit
 
 public class ConfirmUpdateModel: HandyJSON {
-        public  var result:NSObject!
-        public  var total:Int!
-        public var code:Int!
-        public var msg:String!
-        public  required init() {
-            
-        }
-        
+    public var result: NSObject!
+    public var total: Int!
+    public var code: Int!
+    public var msg: String!
+    public required init() {
     }
-
+}

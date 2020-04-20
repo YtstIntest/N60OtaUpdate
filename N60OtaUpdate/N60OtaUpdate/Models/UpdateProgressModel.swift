@@ -6,30 +6,24 @@
 //  Copyright © 2019 xialiang. All rights reserved.
 //
 
-import UIKit
 import HandyJSON
+import UIKit
 
 public class UpdateProgressModel: HandyJSON {
-    
-    public var result:UResultModel!
-    public var code:Int!
-    public var msg:String!
-    public  required init() {
-        
+    public var result: UResultModel!
+    public var code: Int!
+    public var msg: String!
+    public required init() {
     }
-    
 }
 
 public class UResultModel: HandyJSON {
-    public var vin:String!
-    public var result:Int!
-    public var status:Int!
-    public var resultCode:Int!
-    public var progress:Int!
-    
-    
-    public  required init() {
-        
+    public var vin: String!
+    public var result: Int!
+    public var status: Int!
+    public var resultCode: Int!
+    public var progress: Int!
+
+    public required init() {
     }
-    
 }
